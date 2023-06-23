@@ -35,14 +35,14 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${app.runtime}</muleVersion>
-
 						<applicationName>hello-world</applicationName>
-						<environment>Sandbox</environment>
+						<environment>SANDBOX</environment>
 						<connectedAppClientId>6955125fe1f745eebf0171332e5e8a0d</connectedAppClientId>
 						<connectedAppClientSecret>F3d883f930394e2d86d5648Ad9465064</connectedAppClientSecret>
-
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
-
+						 <workerType>MICRO</workerType>
+						  <objectStoreV2>true</objectStoreV2>
+                        <region>us-east-2</region>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
