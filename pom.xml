@@ -36,7 +36,7 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${app.runtime}</muleVersion>
 						<applicationName>hello-world</applicationName>
-						<environment>SANDBOX</environment>
+						<environment>Sandbox</environment>
 						<connectedAppClientId>6955125fe1f745eebf0171332e5e8a0d</connectedAppClientId>
 						<connectedAppClientSecret>F3d883f930394e2d86d5648Ad9465064</connectedAppClientSecret>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
